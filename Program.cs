@@ -50,7 +50,7 @@ namespace temp
             Computer A = new Computer();
             A.name = "may_1";
 
-            //them app
+            //them app cua A
             for (int i = 0; i < 1000; i++)
             {
                 A.addApp("New app");
@@ -63,7 +63,7 @@ namespace temp
                 arr[i] = (Computer)A.Clone();
                 arr[i].name = "may_" + i.ToString();
 
-                //them app
+                //sua thanh app cua moi may rieng
                 for (int j = 5000; j < 6000; j++)
                 {
                     arr[i].changeApp(j, "New app may " + i.ToString());
