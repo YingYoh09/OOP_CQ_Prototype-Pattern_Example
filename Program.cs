@@ -61,7 +61,7 @@ namespace temp
             timer.Stop();
             Console.WriteLine("Time elapsed : {0} Miliseconds", timer.ElapsedMilliseconds);
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 
