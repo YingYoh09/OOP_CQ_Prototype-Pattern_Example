@@ -43,9 +43,9 @@ namespace temp
                 A.addApp("New app");
             }
 
-            int n = 10000;
-            Computer[] arr = new Computer[n];
-            for (int i = 0; i < n; i++)
+            int numberOfNewComputer = 5000;
+            Computer[] arr = new Computer[numberOfNewComputer];
+            for (int i = 0; i < numberOfNewComputer; i++)
             {
                 arr[i] = new Computer();
                 arr[i].name = "may_" + i.ToString();
@@ -53,7 +53,7 @@ namespace temp
                 //them app
                 for (int j = 0; j < 1000; j++)
                 {
-                    A.addApp("New app");
+                    arr[i].addApp("New app may " + i.ToString());
                 }
             }
 
